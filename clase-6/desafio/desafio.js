@@ -33,27 +33,18 @@ app.get('/', (req, res) => {
     res.send('<button><a href="/productos">Ver productos</a></button> <button><a href="/productoRandom">Ver producto random</a></button>');
 });
 app.get('/productos', (req, res) => {
-    async function getproducts() {
-        try {
-            const productos = await contenedor.getall();
-            res.send(productos);
-        } catch (error) {
-            console.log("getAll error: " + error);
-            res.send(`<h1>Error al cargar los productos</h1>`);
-        }
-    }(getproducts)();
+    productos = contenedor.getall();
 });
 app.get('/productoRandom', (req, res) => {
-    async function getproductoRandom() {
-        try {
-            const productos = await contenedor.getall();
-            const productoRandom = productos[Math.floor(Math.random() * productos.length)];
-            res.send(productoRandom);
-        } catch (error) {
-            console.log("getproductoRandom error: " + error);
-            res.send(`<h1>Error al cargar el producto</h1>`);
-        }
-    }(getproductoRandom)();
+    // getproductoRandom then
+    productos.getall().then(productos => {
+        const producto = productos[Math.floor(Math.random() * productos.length)];
+        res.send(producto);
+    }).catch(error => {
+        console.log("getAll error: " + error);
+        res.send(`<h1>Error al cargar los productos</h1>`);
+    });
+
 });
 
 const server = app.listen(PORT, () => {

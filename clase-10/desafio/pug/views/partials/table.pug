@@ -1,0 +1,26 @@
+section
+  h1 Datos almacenados
+  .tbl-header
+    table(cellpadding='0' cellspacing='0' border='0')
+      thead
+        tr.tr-h
+          th Codigo
+          th Nombre
+          th Precio
+          th Imagen
+  .tbl-content
+    table(cellpadding='0' cellspacing='0' border='0')
+      tbody
+      if productos.length === 0
+        tr
+          td No hay datos
+      else
+      each item in productos
+        tr
+          td= item.id
+          td= item.nombre
+          td= item.precio
+          td= item.url
+            img
+.btn-f
+  a(href='/')  FORMULARIO 
