@@ -1,4 +1,4 @@
-const { options } = require("./options/mariaDB.js");
+const { options } = require("./options/mariaDB");
 const knex = require("knex")(options);
 
 //funcion para mostrar todos los productos

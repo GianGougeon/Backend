@@ -36,42 +36,6 @@ app.use("/", router);
 
 // Chat socket
 //------------------------------------------------------------------------------
-const fs = require("fs");
-// Contenedor
-class Contenedor {
-    constructor(nombreArchivo) {
-        this.nombreArchivo = nombreArchivo;
-    }
-    // Obtener todos los mensajes, si el archivo no existe lo crea
-    async getAll() {
-        try {
-            const data = await fs.readFileSync(this.nombreArchivo);
-            return JSON.parse(data);
-        } catch (error) {
-            console.log(
-                "getAll Error:" +
-                    error +
-                    "Archivo no encontrado, se creara uno nuevo"
-            );
-            await fs.writeFileSync(this.nombreArchivo, "[]");
-            return [];
-        }
-    }
-    // Guardar los mensajes en data/mensajes.txt
-    async save(mensaje) {
-        try {
-            const data = await this.getAll();
-            data.push(mensaje);
-            fs.writeFileSync(this.nombreArchivo, JSON.stringify(data));
-        } catch (error) {
-            console.log("Error al guardar: " + error);
-        }
-    }
-}
-// Contenedor de mensajes
-const messages = new Contenedor("./data/mensajes.txt");
-
-//------------------------------------------------------------------------------
 // obtener hora y dia actual
 getTime = () => {
     const date = new Date();
@@ -84,17 +48,24 @@ getTime = () => {
     return `${day}/${month}/${year} - ${hour}:${minutes}:${seconds}`;
 };
 
-// carga de datos
+//conexion
 io.on("connection", async (socket) => {
+    //mensaje en consola cuando se conecta un usuario
     console.log("Un cliente se ha conectado");
+    const messages = await chat.getMessages();
     // obtener mensajes
-    socket.emit("messages", await messages.getAll());
+    socket.emit("messages", messages);
+    io.sockets.emit("productos");
     // actualizar mensajes
     socket.on("new-message", async (data) => {
-        // agregar hora y dia al mensaje
-        data.time = getTime();
-        await messages.save(data);
-        io.sockets.emit("messages", await messages.getAll());
+        try {
+            data.time = getTime();
+            chat.saveMessages(data);
+            const messages = await chat.getMessages();
+            io.sockets.emit("messages", messages);
+        } catch (err) {
+            console.log(err);
+        }
     });
 });
 

@@ -1,22 +1,20 @@
-const { options } = require("./options/sqliteDB");
+const { options } = require("./options/sqliteDB.js");
 const knex = require("knex")(options);
 
-//funcion para mostrar todos los mensajes
+//Mostrar mensajes
 const getMessages = async () => {
     try {
-        const mensajes = await knex("mensaje").select("*");
-        console.log("mensajes", mensajes);
-        return mensajes;
+        const messages = await knex("chat").select("*");
+        return messages;
     } catch (err) {
-        console.log("hola", err);
-        throw new Error("No se pudo leer la base de datos(list)", err);
+        throw new Error("No se pudo leer base de datos(list)", err);
     }
 };
 
-//funcion para guardar un mensaje
+//Guardar mensaje
 const saveMessages = async (message) => {
     try {
-        await knex("mensaje")
+        await knex("chat")
             .insert(message)
             .then(() => {
                 return "Mensaje Enviado";
