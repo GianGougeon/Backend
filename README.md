@@ -1,6 +1,6 @@
 # Backend
 
-## Ejercicios/Desafios:
+### Ejercicios/Desafios:
 
 -   [Ejercicio Clases](./clase-2)
 -   [Manejo de Archivos en Javascript](./clase-4)
@@ -8,5 +8,6 @@
 -   [API RESTful](./clase-8/desafio)
 -   [Motores de plantillas](./clase-10/desafio)
 -   [Desafio motores de plantillas](./clase-12/desafio)
--   [PRIMERA ENTREGA DEL PROYECTO FINAL](./clase-14/desafio)
--   [PRIMERA BASE DE DATOS](./clase-16/desafio)
+-   [Primera entrega del proyecto final](./clase-14/desafio)
+-   [Primera base de datos](./clase-16/desafio)
+-   [MONGODB](./clase-18/desafio)

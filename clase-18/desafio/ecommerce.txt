@@ -1,0 +1,118 @@
+// Crear una base de datos llamada ecommerce
+use ecommerce
+
+// Agregar 10 documentos con valores distintos a las colecciones mensajes y productos. El formato de los documentos debe estar en correspondencia con el que venimos utilizando en el entregable con base de datos MariaDB. 
+db.createCollection("productos")
+db.createCollection("mensajes")
+
+// Definir las claves de los documentos en relación a los campos de las tablas de esa base. En el caso de los productos, poner valores al campo precio entre los 100 y 5000 pesos (eligiendo valores intermedios, ej: 120, 580, 900, 1280, 1700, 2300, 2860, 3350, 4320, 4990). 
+db.productos.insertMany([{
+        nombre: "motor",
+        precio: 120
+    },
+    {
+        nombre: "moto",
+        precio: 580
+    },
+    {
+        nombre: "auto",
+        precio: 900
+    },
+    {
+        nombre: "perro",
+        precio: 1280
+    },
+    {
+        nombre: "bici",
+        precio: 1700
+    },
+    {
+        nombre: "gato",
+        precio: 2300
+    },
+    {
+        nombre: "lapiz",
+        precio: 2860
+    },
+    {
+        nombre: "papel",
+        precio: 3350
+    },
+    {
+        nombre: "teclado",
+        precio: 4320
+    },
+    {
+        nombre: "monitor",
+        precio: 4990
+    }
+])
+
+db.mensajes.insertMany([{
+        email: "roberto0@gmail.com",
+        mensaje: "hola"
+    },
+    {
+        email: "roberto1@gmail.com",
+        mensaje: "hola como tas"
+    },
+    {
+        email: "roberto2@gmail.com",
+        mensaje: "hola bien"
+    },
+    {
+        email: "roberto3@gmail.com",
+        mensaje: "hola pi"
+    },
+    {
+        email: "roberto4@gmail.com",
+        mensaje: "hola amigaso"
+    },
+    {
+        email: "roberto5@gmail.com",
+        mensaje: "hola rob"
+    },
+    {
+        email: "roberto6@gmail.com",
+        mensaje: "hola che"
+    },
+    {
+        email: "roberto7@gmail.com",
+        mensaje: "hola ro"
+    },
+    {
+        email: "roberto8@gmail.com",
+        mensaje: "hola pitufo"
+    },
+    {
+        email: "roberto9@gmail.com",
+        mensaje: "hola rey"
+    }
+])
+
+// Listar todos los documentos en cada colección.
+db.productos.find()
+db.mensajes.find()
+
+// Mostrar la cantidad de documentos almacenados en cada una de ellas.
+db.productos.estimatedDocumentCount()
+db.mensajes.estimatedDocumentCount()
+
+// Realizar un CRUD sobre la colección de productos:
+    // Agregar un producto más en la colección de productos 
+    db.productos.insertOne({nombre: "rx 580", precio: 5490})
+    // Realizar una consulta por nombre de producto específico:
+        // Listar los productos con precio menor a 1000 pesos.
+        db.productos.find({$and: [{"precio": {$lte: 1000}}] })
+        // Listar los productos con precio entre los 1000 a 3000 pesos
+        db.productos.find({$and: [{"precio": {$gte: 1000}}, {"precio": {$lte: 3000}}] })
+        // Listar los productos con precio mayor a 3000 pesos.
+        db.productos.find({$and: [{"precio": {$gte: 3000}}] })
+        // Realizar una consulta que traiga sólo el nombre del tercer producto más barato
+        db.productos.find().sort( { precio : 1, posts: -1 }).skip(2).limit(1).sort({price: 1}) 
+        // Hacer una actualización sobre todos los productos, agregando el campo stock a todos ellos con un valor de 100.
+        db.productos.updateMany({},{ $set:{ stock: 100 }})
+        // Cambiar el stock a cero de los productos con precios mayores a 4000 pesos. 
+        db.productos.updateMany({$and: [{"precio": {$gte: 4000}}]}, { $set:{ stock: 0 }})
+        // Borrar los productos con precio menor a 1000 pesos.
+        db.productos.deleteMany( {$and: [{"precio": {$lte: 1000}}]})
