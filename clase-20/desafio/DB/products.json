@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "name": "125cc",
+    "description": "motor 125cc standard",
+    "code": "125ccYa",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_843234-MLU47565558388_092021-O.webp",
+    "price": 360,
+    "stock": 2
+  },
+  {
+    "id": 2,
+    "name": "125xdxdxdxdcc",
+    "description": "motor 125cc standard",
+    "code": "125ccYa",
+    "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_843234-MLU47565558388_092021-O.webp",
+    "price": 360,
+    "stock": 2
+  }
+  
+]

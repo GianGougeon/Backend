@@ -11,4 +11,4 @@
 -   [Primera entrega del proyecto final](./clase-14/desafio)
 -   [Primera base de datos](./clase-16/desafio)
 -   [MONGODB](./clase-18/desafio)
--   [DbaaS & Firebase](./clase-20/desafio)
+-   [Segunda entrega del Proyecto Final](./clase-20/desafio)
