@@ -12,3 +12,4 @@
 -   [Primera base de datos](./clase-16/desafio)
 -   [MONGODB](./clase-18/desafio)
 -   [Segunda entrega del Proyecto Final](./clase-20/desafio)
+-   [Mocks y normalización](./clase-22/desafio)
