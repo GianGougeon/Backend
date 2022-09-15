@@ -13,3 +13,4 @@
 -   [MONGODB](./clase-18/desafio)
 -   [Segunda entrega del Proyecto Final](./clase-20/desafio)
 -   [Mocks y normalización](./clase-22/desafio)
+-   [LOG-IN POR FORMULARIO](./clase-24/desafio)
