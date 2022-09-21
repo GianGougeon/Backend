@@ -1,0 +1,36 @@
+<div>
+    <form
+        class="form-prod login"
+        action="/register"
+        method="post"
+        role="form"
+        autocomplete="off"
+    >
+        <h1>REGISTRO</h1>
+        <img src="./src/img/login.png" alt="box" />
+        <label for="email">Email</label>
+        <input
+            id="email"
+            name="email"
+            placeholder="Email"
+            class="form-control"
+            type="email"
+            required
+        />
+
+        <label for="password">Contraseña</label>
+        <input
+            id="password"
+            name="password"
+            placeholder="Contraseña"
+            class="form-control"
+            type="password"
+            required
+        />
+        <input class="btn btn-success my-3" type="submit" value="Enviar" />
+    </form>
+    <div class="res">
+        <span> ¿Ya tienes cuenta? </span>
+        <a href="/login">Inicia sesión</a>
+    </div>
+</div>
