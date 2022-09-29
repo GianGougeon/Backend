@@ -1,6 +1,6 @@
-import express from "express";
-import { auth } from "./../middlewares/auth.js";
-import User from "./../models/User.js";
+const express = require("express");
+const auth = require("./../middlewares/auth.js");
+const User = require("./../models/User.js");
 
 const home = express.Router();
 
@@ -13,4 +13,4 @@ home.get("/", auth, async (req, res) => {
     }
 });
 
-export { home };
+module.exports = home;

@@ -307,5 +307,14 @@ td {
 .info-section > div:first-child {
   display: flex;
 }
+.info-section .arg {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 0;
+}
+.info-section .arg > li {
+  list-style: none;
+}
 
 /*# sourceMappingURL=style.css.map */

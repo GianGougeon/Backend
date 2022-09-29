@@ -1,7 +1,7 @@
-import passport from "passport";
-import { Strategy } from "passport-local";
-import bcrypt from "bcrypt";
-import User from "../models/User.js";
+const passport = require("passport");
+const { Strategy } = require("passport-local");
+const bcrypt = require("bcrypt");
+const User = require("./../models/User.js");
 const LocalStrategy = Strategy;
 
 passport.use(
@@ -26,4 +26,4 @@ passport.deserializeUser(async (id, done) => {
     const user = await User.findById(id);
     return done(null, user);
 });
-export default passport;
+module.exports = passport;

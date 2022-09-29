@@ -9,4 +9,14 @@
     > div:first-child {
         display: flex;
     }
+    .arg {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+
+        > li {
+            list-style: none;
+        }
+    }
 }

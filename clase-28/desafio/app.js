@@ -1,39 +1,44 @@
 /*============================[Modulos]============================*/
-import express from "express";
-import cookieParser from "cookie-parser";
-import handlebars from "express-handlebars";
-import session from "express-session";
-import dotenv from "dotenv";
-import path from "path";
-import "./db/config.js";
-import { router } from "./routes/index.js";
-import passport from "./middlewares/passport.js";
-import minimist from "minimist";
+const express = require("express");
+const cookieParser = require("cookie-parser");
+const session = require("express-session");
+const router = require("./routes/index");
+const handlebars = require("express-handlebars");
+const dotenv = require("dotenv");
 
+const passport = require("./middlewares/passport.js");
+const minimist = require("minimist");
 
 const app = express();
 dotenv.config();
 /*============================[Middlewares]============================*/
-
+const MongoStore = require("connect-mongo");
 /*----------- Session -----------*/
 
 app.use(cookieParser());
+let MONGOURL =
+    process.env.MONGOURL || "mongodb://localhost:27017/passport-mongo";
+
 app.use(
     session({
-        secret: "1234567890!@#$%^&*()",
-        resave: false,
-        saveUninitialized: false,
-        cookie: {
-            maxAge: 600000, // 10 minutos en milisegundos
-        },
+        store: new MongoStore({ mongoUrl: MONGOURL }),
+        secret: "coderhouse",
+        resave: true,
+        saveUninitialized: true,
+        cookie: { maxAge: 60000 }, // 60 segundos
     })
 );
-
+app.use(express.static(__dirname + "/public"));
+app.use(express.json());
+app.use(
+    express.urlencoded({
+        extended: true,
+    })
+);
 app.use(passport.initialize());
 app.use(passport.session());
 
 /*============================[Motor de plantillas]============================*/
-const __dirname = path.resolve();
 app.engine(
     "hbs",
     handlebars.engine({
@@ -59,13 +64,13 @@ app.use(
 /*============================[Rutas]============================*/
 app.use("/", router);
 /*============================[Servidor]============================*/
-let port = 8080
-let data = minimist(["-p",process.argv.slice(2)])
-if(typeof(data.port) === "number"){
-  port = data.port
+let PORT = 8080;
+let data = minimist(["-p", process.argv.slice(2)]);
+if (typeof data.p === "number") {
+    PORT = data.p;
 }
-const server = app.listen(port, () => {
-    console.log(`Servidor escuchando en puerto ${port}`);
+const server = app.listen(PORT, () => {
+    console.log(`Servidor escuchando en puerto ${PORT}`);
 });
 server.on("error", (error) => {
     console.error(`Error en el servidor ${error}`);

@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon app.js",
     "sass": "sass --watch public/src/styles/scss/style.scss:public/src/styles/css/style.css"
   },
@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
     "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
     "express-handlebars": "^6.0.3",

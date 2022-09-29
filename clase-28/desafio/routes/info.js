@@ -1,10 +1,10 @@
-import express from "express";
-import { auth } from "./../middlewares/auth.js";
+const express = require("express");
+const auth = require("./../middlewares/auth.js");
 
 const info = express.Router();
 
 const data = {
-    arguments: process.argv[1],
+    arguments: process.argv,
     memory: process.memoryUsage(),
     platform: process.platform,
     nodeV: process.version,
@@ -12,12 +12,10 @@ const data = {
     processId: process.pid,
     carpet: process.cwd(),
 };
-
-
 info.get("/", auth,  (req, res) => {
     res.render("info", {
         datos: data,
     });
 });
 
-export { info };
+module.exports = info;

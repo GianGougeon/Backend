@@ -1,12 +1,11 @@
-import express from "express";
+const express = require("express");
 const router = express.Router();
-
 //Routers
-import { home } from "./home.js";
-import { login, loginError, register, logout } from "./auth.js";
-import { datos } from "./datos.js";
-import { info } from "./info.js";
-import { randoms } from "./randoms.js";
+const home = require("./home.js");
+const { login, loginError, register, logout } = require("./auth.js");
+const datos = require("./datos.js");
+const info = require("./info.js");
+const randoms = require("./randoms.js");
 
 //Middlewares
 router.use("/", home);
@@ -18,4 +17,4 @@ router.use("/datos", datos);
 router.use("/info", info);
 router.use("/api/randoms", randoms);
 
-export { router };
+module.exports = router;

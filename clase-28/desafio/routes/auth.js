@@ -1,18 +1,22 @@
-import express from "express";
-import passport from "passport";
-import { auth } from "./../middlewares/auth.js";
-import User from "./../models/User.js";
-import bcrypt from "bcrypt";
+const express = require("express");
+const passport = require("passport");
 
 const login = express.Router();
 const loginError = express.Router();
 const register = express.Router();
 const logout = express.Router();
 
+const Auth = require("../controller/auth.controller");
+
 /*============================[Login]============================*/
 
 login.get("/", (req, res) => {
-    res.render("login");
+    const usuarios = Auth.getUsuarios();
+    if (!usuarios) {
+        res.redirect("/datos");
+    } else {
+        res.render("login");
+    }
 });
 
 login.post(
@@ -41,26 +45,21 @@ logout.get("/", (req, res) => {
 });
 
 /*============================[register]============================*/
-
 register.get("/", (req, res) => {
     res.render("register");
 });
 
 register.post("/", (req, res) => {
-    const { email, password } = req.body;
-    User.findOne({ email }, async (err, user) => {
-        if (err) console.log(err);
-        if (user) res.render("registerError");
-        if (!user) {
-            const hashedPassword = await bcrypt.hash(password, 8);
-            const newUser = new User({
-                email,
-                password: hashedPassword,
+    const { password, email } = req.body;
+    Auth.registerUsuario({ password, email }).then((user) => {
+        if (user) {
+            return res.render("login");
+        } else {
+            res.render("registerError", {
+                error: "El usuario ya existe",
             });
-            await newUser.save();
-            res.redirect("/login");
         }
     });
 });
 
-export { login, loginError, register, logout };
+module.exports = { login, loginError, register, logout };
