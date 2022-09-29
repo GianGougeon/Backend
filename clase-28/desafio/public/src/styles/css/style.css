@@ -1,0 +1,311 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body {
+  background: #142120;
+  font-family: "Roboto", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px grey;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*============================[Form productos]============================*/
+section {
+  margin: 50px;
+}
+
+.form-prod {
+  width: 350px;
+  height: 560px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #c9f18b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.form-prod > h1 {
+  border-bottom: none;
+}
+.form-prod > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6em;
+  text-transform: uppercase;
+}
+.form-prod > label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+.form-prod > input {
+  height: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background: transparent;
+  color: white;
+}
+
+/* form submit input*/
+.form-prod input[type=submit],
+.logoutButtom {
+  text-transform: uppercase;
+  background: #424242;
+  color: #fff;
+  transition: all 0.1s ease-in-out;
+  border: none;
+  padding: 0.5rem;
+  margin: 1em;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.form-prod input[type=submit]:hover {
+  background: #0c4b45;
+}
+
+.form-prod input[type=submit]:active {
+  box-shadow: inset 0 3px 20px 0 #000;
+}
+
+/*============================[Tabla Productos]============================*/
+h1,
+h2 {
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+  border-bottom: 1px solid white;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.tbl-header {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content {
+  height: 300px;
+  overflow-x: auto;
+  margin-top: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.tbl-content img {
+  width: 100px;
+}
+
+.tr-h {
+  background: grey;
+}
+
+th {
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  text-align: left;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 12px;
+  color: #fff;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+
+.btn-f a {
+  align-items: center;
+  appearance: none;
+  background-color: #fcfcfd;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395a;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/*============================[Chat]============================*/
+.chat {
+  color: #d6d6e7;
+  background-color: #002c3d;
+  border: 3px solid #c9f18b;
+}
+
+.chat-content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px;
+}
+
+#messages {
+  overflow-y: scroll;
+  height: 270px;
+}
+
+#email,
+#texto {
+  height: 30px;
+  width: 200px;
+}
+
+#send {
+  background-color: #002c3d;
+  color: #d6d6e7;
+  border: 3px solid #c9f18b;
+  height: 36px;
+  cursor: pointer;
+}
+
+#send:active {
+  background-color: white;
+  color: #002c3d;
+}
+
+.chat-author {
+  color: #55e0d8;
+}
+
+.chat-time {
+  color: #b37285;
+}
+
+/*============================[Login Error]============================*/
+.login-error {
+  margin-top: 11vh;
+}
+
+/*============================[Login Stats]============================*/
+.login-stats {
+  position: relative;
+  height: 40px;
+}
+.login-stats > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.login-stats > div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.login-stats > div > i {
+  color: aliceblue;
+}
+.login-stats > div > button {
+  background: rgba(255, 0, 0, 0.6588235294);
+  cursor: pointer;
+  z-index: 1;
+}
+.login-stats > div .infobutton {
+  background: rgba(0, 255, 0, 0.6588235294);
+}
+
+/*============================[Logout]============================*/
+.logout {
+  width: 350px;
+  height: 530px;
+  margin: auto;
+  margin-top: 12vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid #c9f18b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.logout > h1 {
+  border-bottom: none;
+}
+
+/*============================[login]============================*/
+.login {
+  margin-top: 11vh;
+}
+.login > img {
+  width: 84px;
+  height: 84px;
+  padding: 40px 0;
+}
+
+.res {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  color: white;
+}
+.res > a {
+  margin-left: 5px;
+  color: #bde383;
+  font-weight: bold;
+}
+
+.datos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-section > h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.info-section > div:first-child {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

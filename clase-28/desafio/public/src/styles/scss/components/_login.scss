@@ -1,0 +1,21 @@
+/*============================[login]============================*/
+
+.login {
+    margin-top: 11vh;
+    > img {
+        width: 84px;
+        height: 84px;
+        padding: 40px 0;
+    }
+}
+.res {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    > a {
+        margin-left: 5px;
+        color: #bde383;
+        font-weight: bold;
+    }
+}
