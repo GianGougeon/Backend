@@ -1,0 +1,31 @@
+2022/10/10 21:15:49 [notice] 21468#18808: signal process started
+2022/10/10 21:56:55 [notice] 12724#15768: signal process started
+2022/10/10 21:57:05 [error] 14904#19772: *7 CreateFile() "D:\Coderhouse\Coderhouse-31035\30\nginx-1.23.1/html/public" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /public HTTP/1.1", host: "localhost"
+2022/10/10 21:59:47 [notice] 6848#13968: signal process started
+2022/10/10 22:00:17 [notice] 18176#8764: signal process started
+2022/10/10 22:00:20 [error] 18660#10744: *13 CreateFile() "./NodeServer/public/js/index.js" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /js/index.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/10 22:00:25 [error] 18660#10744: *12 CreateFile() "./NodeServer/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/10 22:06:45 [notice] 18936#20288: signal process started
+2022/10/15 19:04:07 [emerg] 9732#13372: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\nginx-1.23.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/15 19:09:41 [emerg] 4364#11196: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\nginx-1.23.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/15 19:09:56 [notice] 7784#15124: signal process started
+2022/10/15 19:09:56 [error] 7784#15124: OpenEvent("Global\ngx_reopen_7760") failed (2: The system cannot find the file specified)
+2022/10/15 19:10:00 [notice] 15384#15576: signal process started
+2022/10/15 19:10:00 [error] 15384#15576: OpenEvent("Global\ngx_quit_7760") failed (2: The system cannot find the file specified)
+2022/10/15 19:10:44 [emerg] 15384#15532: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\nginx-1.23.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/15 19:10:45 [emerg] 1748#8696: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\nginx-1.23.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/15 19:10:57 [emerg] 14380#15212: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\nginx-1.23.1/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/15 19:16:22 [notice] 16160#2684: signal process started
+2022/10/15 19:16:22 [error] 16160#2684: OpenEvent("Global\ngx_quit_7760") failed (2: The system cannot find the file specified)
+2022/10/15 19:16:30 [notice] 11856#15280: signal process started
+2022/10/15 19:16:30 [error] 11856#15280: OpenEvent("Global\ngx_stop_7760") failed (2: The system cannot find the file specified)
+2022/10/15 19:18:12 [notice] 15040#9212: signal process started
+2022/10/15 19:18:14 [notice] 13596#6836: signal process started
+2022/10/15 19:18:14 [notice] 7744#7328: signal process started
+2022/10/15 19:20:31 [notice] 7784#15592: signal process started
+2022/10/15 19:20:50 [notice] 4588#14292: signal process started
+2022/10/15 19:20:50 [error] 4588#14292: CreateFile() "C:\Users\Gian\Desktop\Backend\clase-30\nginx-1.23.1/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2022/10/15 19:21:57 [notice] 15304#10800: signal process started
+2022/10/15 19:30:19 [notice] 9048#5932: signal process started
+2022/10/15 19:30:22 [notice] 11172#3588: signal process started
+2022/10/15 19:30:22 [error] 11172#3588: CreateFile() "C:\Users\Gian\Desktop\Backend\clase-30\nginx-1.23.1/logs/nginx.pid" failed (2: The system cannot find the file specified)

@@ -16,3 +16,5 @@
 -   [LOG-IN POR FORMULARIO](./clase-24/desafio)
 -   [Inicio de sesión](./clase-26/desafio)
 -   [Usando el objeto process](./clase-28/desafio)
+-   [Servidor con balance de carga](./clase-30/desafio)
+

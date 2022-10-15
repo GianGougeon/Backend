@@ -1,0 +1,4 @@
+./nginx.exe -s stop  para un apagado rápido.
+./nginx.exe -s quit  para un cierre más elegante.
+./nginx.exe -s reload  para reiniciar el servidor al cambiar la configuración, iniciar nuevos procesos de trabajo con una nueva configuración, cierre elegante de los procesos de trabajo antiguos.
+./nginx.exe -s reopen  para reabrir logs de archivos.

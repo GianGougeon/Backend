@@ -1,0 +1,73 @@
+2022/10/10 21:15:49 [notice] 21468#18808: signal process started
+2022/10/10 21:56:55 [notice] 12724#15768: signal process started
+2022/10/10 21:57:05 [error] 14904#19772: *7 CreateFile() "D:\Coderhouse\Coderhouse-31035\30\nginx-1.23.1/html/public" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /public HTTP/1.1", host: "localhost"
+2022/10/10 21:59:47 [notice] 6848#13968: signal process started
+2022/10/10 22:00:17 [notice] 18176#8764: signal process started
+2022/10/10 22:00:20 [error] 18660#10744: *13 CreateFile() "./NodeServer/public/js/index.js" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /js/index.js HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/10 22:00:25 [error] 18660#10744: *12 CreateFile() "./NodeServer/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/10 22:06:45 [notice] 18936#20288: signal process started
+2022/10/13 20:15:05 [emerg] 11740#12256: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:17:57 [notice] 1948#13552: signal process started
+2022/10/13 20:17:57 [error] 1948#13552: OpenEvent("Global\ngx_reload_7760") failed (2: The system cannot find the file specified)
+2022/10/13 20:18:05 [notice] 7244#6172: signal process started
+2022/10/13 20:18:05 [error] 7244#6172: OpenEvent("Global\ngx_reload_7760") failed (2: The system cannot find the file specified)
+2022/10/13 20:18:17 [emerg] 12312#11260: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:18:25 [notice] 14148#2172: signal process started
+2022/10/13 20:18:25 [error] 14148#2172: OpenEvent("Global\ngx_reopen_7760") failed (2: The system cannot find the file specified)
+2022/10/13 20:19:02 [notice] 5732#13348: signal process started
+2022/10/13 20:19:02 [error] 5732#13348: OpenEvent("Global\ngx_reload_7760") failed (2: The system cannot find the file specified)
+2022/10/13 20:19:26 [emerg] 200#11836: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:19:28 [emerg] 14256#5508: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:19:29 [emerg] 1192#10504: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:19:53 [emerg] 8712#1540: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:19:55 [emerg] 2532#9720: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:20:01 [emerg] 3968#11312: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:23:20 [notice] 10804#1272: signal process started
+2022/10/13 20:23:20 [error] 10804#1272: OpenEvent("Global\ngx_reload_7760") failed (2: The system cannot find the file specified)
+2022/10/13 20:23:23 [emerg] 8808#6988: CreateDirectory() "C:\Users\Gian\Desktop\Backend\clase-30\desafio/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2022/10/13 20:31:09 [notice] 12480#6108: signal process started
+2022/10/13 20:32:08 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:08 [error] 5776#1500: *1 CreateFile() "./NodeServer/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/13 20:32:17 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:34 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:35 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:36 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:36 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:37 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:37 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:37 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:38 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:38 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:38 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:39 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:39 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:39 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:40 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:40 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:40 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/13 20:32:41 [error] 5776#1500: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:04:48 [error] 3868#3200: *1 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:06:18 [error] 3868#3200: *3 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:06:19 [error] 3868#3200: *3 CreateFile() "./NodeServer/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/15 19:07:25 [notice] 14140#13928: signal process started
+2022/10/15 19:07:30 [error] 3868#3200: *3 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:07:32 [error] 3868#3200: *3 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:07:33 [error] 3868#3200: *3 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:07:33 [error] 3868#3200: *3 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:07:33 [error] 3868#3200: *3 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:07:34 [error] 3868#3200: *3 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:08:18 [notice] 13220#15024: signal process started
+2022/10/15 19:09:34 [error] 3868#3200: *5 directory index of "./NodeServer/public/" is forbidden, client: 127.0.0.1, server: nginx_node, request: "GET / HTTP/1.1", host: "localhost"
+2022/10/15 19:32:21 [error] 15468#16024: *1 CreateFile() "./NodeServer/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/10/15 19:32:29 [error] 15468#16024: *1 CreateFile() "./NodeServer/public/api/random" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nginx_node, request: "GET /api/random HTTP/1.1", host: "localhost"
+2022/10/15 19:38:54 [notice] 1656#11968: signal process started
+2022/10/15 19:44:59 [emerg] 14552#14516: unknown directive "app" in C:\Users\Gian\Desktop\Backend\clase-30\desafio/conf/nginx.conf:9
+2022/10/15 19:46:25 [notice] 15712#13416: signal process started
+2022/10/15 19:49:33 [notice] 13464#12564: signal process started
+2022/10/15 19:51:13 [error] 14796#9228: *1 CreateFile() "./NodeServer/public/api/random" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nginx_node, request: "GET /api/random HTTP/1.1", host: "localhost"
+2022/10/15 19:51:13 [error] 14796#9228: *1 CreateFile() "./NodeServer/public/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/api/random"
+2022/10/15 19:51:21 [error] 14796#9228: *1 CreateFile() "./NodeServer/public/api/random" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nginx_node, request: "GET /api/random HTTP/1.1", host: "localhost"
+2022/10/15 19:51:22 [error] 14796#9228: *1 CreateFile() "./NodeServer/public/api/random" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nginx_node, request: "GET /api/random HTTP/1.1", host: "localhost"
+2022/10/15 19:51:22 [error] 14796#9228: *1 CreateFile() "./NodeServer/public/api/random" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: nginx_node, request: "GET /api/random HTTP/1.1", host: "localhost"
+2022/10/15 19:57:11 [notice] 16896#14304: signal process started
+2022/10/15 20:00:40 [error] 15476#392: *42 CreateFile() "./NodeServer/public/login" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: nginx_node, request: "GET /login HTTP/1.1", host: "localhost"
