@@ -19,7 +19,7 @@ function buildDevLogger() {
 
 let logger = null;
 
-if (process.env.NODE_ENV === "PROD") {
+if (process.env.NODE_ENV !== "PROD") {
   logger = buildProdLogger();
 } else {
   logger = buildDevLogger();

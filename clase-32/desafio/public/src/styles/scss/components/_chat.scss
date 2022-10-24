@@ -1,0 +1,38 @@
+/*============================[Chat]============================*/
+
+.chat {
+    color: #d6d6e7;
+    background-color: #002c3d;
+    border: 3px solid #c9f18b;
+}
+.chat-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+}
+#messages {
+    overflow-y: scroll;
+    height: 270px;
+}
+#email,
+#texto {
+    height: 30px;
+    width: 200px;
+}
+#send {
+    background-color: #002c3d;
+    color: #d6d6e7;
+    border: 3px solid #c9f18b;
+    height: 36px;
+    cursor: pointer;
+}
+#send:active {
+    background-color: white;
+    color: #002c3d;
+}
+.chat-author {
+    color: #55e0d8;
+}
+.chat-time {
+    color: #b37285;
+}

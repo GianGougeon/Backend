@@ -1,0 +1,12 @@
+{"level":"info","message":"Servidor escuchando en el puerto 3000"}
+{"level":"warn","message":"Ruta / con método GET no implementada"}
+{"level":"warn","message":"Ruta /favicon.ico con método GET no implementada"}
+{"level":"info","message":"Servidor escuchando en el puerto 3000"}
+{"level":"info","message":"Servidor escuchando en el puerto 3000"}
+{"level":"info","message":"Servidor escuchando en el puerto 3000"}
+{"level":"warn","message":"Ruta / con método GET no implementada"}
+{"level":"warn","message":"Ruta /favicon.ico con método GET no implementada"}
+{"level":"warn","message":"Ruta /asd con método GET no implementada"}
+{"level":"warn","message":"Ruta /favicon.ico con método GET no implementada"}
+{"level":"error","message":"Parámetros recibidos: a=undefined, b=undefined incorrectos para la suma"}
+{"level":"warn","message":"Ruta /favicon.ico con método GET no implementada"}

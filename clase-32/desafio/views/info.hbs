@@ -1,0 +1,55 @@
+<section class="info-section">
+    <div class="login-stats">
+        <h1>Info</h1>
+        <div>
+            <button
+                class="logoutButtom"
+                onclick="location.href='/datos'"
+            >Volver</button>
+        </div>
+    </div>
+    <div class="tbl-content" style="height: auto; margin-top: 50px">
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td class="tg-0pky">Argumentos de entrada</td>
+                    <td class="tg-0lax">
+                        <ul class="arg">
+                            {{#datos.arguments}}
+                                <li>{{this}}</li>
+                            {{/datos.arguments}}
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Carpeta del proyecto</td>
+                    <td class="tg-0lax">{{datos.carpet}}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Nombre de la plataforma (sistema
+                        operativo)</td>
+                    <td class="tg-0lax">{{datos.platform}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Versión de node.js</td>
+                    <td class="tg-0lax">{{datos.nodeV}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Memoria total reservada (rss)</td>
+                    <td class="tg-0lax">{{datos.memory.rss}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Path de ejecución
+                    </td>
+                    <td class="tg-0lax">{{datos.execPath}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Process id</td>
+                    <td class="tg-0lax">{{datos.processId}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
