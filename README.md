@@ -18,4 +18,5 @@
 -   [Usando el objeto process](./clase-28/desafio)
 -   [Servidor con balance de carga](./clase-30/desafio)
 -   [Loggers, gzip y análisis de performance](./clase-32/desafio)
+-   [Proyecto en la nube](./clase-34/desafio)
 
