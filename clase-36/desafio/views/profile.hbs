@@ -1,0 +1,52 @@
+{{>header}}
+<section class="info-section">
+    <div class="login-stats">
+        <h1>Informacion Personal</h1>
+        </div>
+    </div>
+    <button
+            class="logoutButtom"
+            onclick="location.href='/logout'"
+        >Cerrar sesión</button>
+    <div class="tbl-content" style="
+    height: auto;
+    margin: 50px auto;
+    width: 60%;"
+    >
+    
+        <table cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+                <tr>
+                    <td class="tg-0pky">Name</td>
+                    <td class="tg-0lax">
+                        {{user.name}}
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Adress</td>
+                    <td class="tg-0lax">{{user.adress}}</td>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Phone</td>
+                    <td class="tg-0lax">{{user.phone}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Email</td>
+                    <td class="tg-0lax">{{user.email}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Ege</td>
+                    <td class="tg-0lax">{{user.age}}</td>
+                </tr>
+                <tr>
+                    <td class="tg-0lax">Image
+                    </td>
+                    <td class="tg-0lax">
+                        <img src="{{user.image}}">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

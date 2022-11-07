@@ -1,0 +1,19 @@
+.total-cart{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    >h3{
+        font-size: 2em;
+        color: #eee;
+    }
+}
+.total-cart-pedido{
+    background-color: #494949;
+    color: #eee;
+    &:active{
+        background-color: #494949;
+        color: #eee;
+    }
+
+}

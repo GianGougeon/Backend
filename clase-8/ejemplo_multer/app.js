@@ -40,6 +40,6 @@ app.post("/uploadmultiple", upload.array("myFiles", 12), (req, res, next) => {
   res.send(files);
 });
 
-app.listen(8080, () => {
+app.listen(8081, () => {
   console.log("Server up");
 });
