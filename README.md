@@ -21,3 +21,4 @@
 -   [Proyecto en la nube](./clase-34/desafio)
 -   <b> [Tercera entrega del Proyecto Final](./clase-36/desafio) </b>
 -   [Dividir en capas nuestro proyecto](./clase-38/desafio)
+-   [Mejorar la arquitectura de la API](./clase-40/desafio)

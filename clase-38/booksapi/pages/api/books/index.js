@@ -1,25 +1,22 @@
-/* eslint-disable import/no-anonymous-default-export */
 import { books } from "../../../data";
 
 export default (req, res) => {
-    switch (req.method) {
-        case "GET":
-            res.status(200).json(books);
-            break;
-        case "POST":
-            const book = req.body;
-            books.push(book);
-            res.status(201).json(book);
-            break;
-    }
-}
+  switch (req.method) {
+    case "POST":
+      createBook(req, res);
+      break;
+    case "GET":
+      getBooks(req, res);
+      break;
+  }
+};
 
-const getbooks =  () => {
+const getBooks = (req, res) => {
   res.status(200).json(books);
-}
+};
 
-const createBook = () => {
+const createBook = (req, res) => {
   const book = req.body;
   books.push(book);
   res.status(201).json(book);
-}
+};

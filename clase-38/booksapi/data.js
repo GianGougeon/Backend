@@ -1,22 +1,17 @@
 export const books = [
-    {
-        id: 1,
-        author: "J.K. Rowling",
-        title: "Harry Potter and the Chamber of Secrets",
-    },
-    {
-        id: 2,
-        author: "J.K. Rowling",
-        title: "Harry Potter and the Prisoner of Azkaban",
-    },
-    {
-        id: 3,
-        author: "J.K. Rowling",
-        title: "Harry Potter and the Goblet of Fire",
-    },
-    {
-        id: 4,
-        author: "J.K. Rowling",
-        title: "Harry Potter and the Order of the Phoenix",
-    },
+  {
+    id: 1,
+    author: "J.K. Rowling",
+    title: "I Love You to the Moon and Back",
+  },
+  {
+    id: 2,
+    author: "Pepe",
+    title: "El libro de Pepe",
+  },
+  {
+    id: 3,
+    author: "Fontanarrosa",
+    title: "El área 18",
+  },
 ];
