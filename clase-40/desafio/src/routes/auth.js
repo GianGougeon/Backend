@@ -21,12 +21,13 @@ const auth = require("./../middlewares/auth.js");
 // colocar nombre de archivo segun el nombre del usuario, avatar+nombre
 const storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, "./public/images");
+        cb(null, "./src/public/images");
     },
     filename: function (req, file, cb) {
         cb(null, `avatar-${req.body.name}.${file.mimetype.split("/")[1]}`);
     },
 });
+
 
 const upload = multer({ storage });
 
@@ -96,7 +97,7 @@ register.post("/", upload.single("file"), async (req, res) => {
     }).then((user) => {
         if (user) {
             logger.info(`Nuevo usuario ${name} registrado`);
-            sendMailNewUser(name);
+            // sendMailNewUser(name);
             return res.render("login");
         } else {
             logger.warn(`Error en el registro de usuario ${req.originalUrl}`);

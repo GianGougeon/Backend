@@ -6,8 +6,6 @@ let configENV = {
     loggerENV: process.env.LOGGER_ENV,
 };
 
-console.log(configENV);
-
 const config = {
     db: {
         connstr: configENV.mongoURL,

@@ -2,7 +2,7 @@ const express = require("express");
 const { Router } = require("express");
 const carts = Router();
 const order = Router();
-const User = require("../../models/user");
+const User = require("../../models/user.model");
 const auth = require("../../middlewares/auth");
 /*============================[logger]============================*/
 

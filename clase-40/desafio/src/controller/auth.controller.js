@@ -1,4 +1,6 @@
 const dataBase = require("../db/register");
+
+
 class Auth {
     // funcion que devuelve todos los usuarios
     static getUsuarios() {

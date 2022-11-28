@@ -1,7 +1,10 @@
-const prod = require("../services/products.dao.js");
+const ProductsDAO = require("../services/products.dao.js");
+
+const prod = new ProductsDAO();
+
 class Productos {
     // funcion que devuelve todos los productos
-    static getAll() {
+    static async getAll() {
         return prod.list();
     }
     // funcion que devuelve un producto segun el id

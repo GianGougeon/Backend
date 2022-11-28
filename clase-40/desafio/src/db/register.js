@@ -1,5 +1,5 @@
 require("./config.js");
-const User = require("../models/user");
+const User = require("../models/user.model");
 const bcrypt = require("bcrypt");
 
 const logger = require("../utils/logger");

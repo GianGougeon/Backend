@@ -9,7 +9,6 @@ class MongoDBClient extends DBClient {
         super();
         this.connected = false;
         this.client = mongoose;
-        console.log(config.db.connstr);
     }
 
     async connect() {
