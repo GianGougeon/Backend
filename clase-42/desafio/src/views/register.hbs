@@ -1,0 +1,65 @@
+<div>
+    <form class="form-prod login" action="/register" method="post" enctype="multipart/form-data">
+        <h1>REGISTRO</h1>
+        <img src="./src/img/login.png" alt="box" id="imgProfile" />
+        <div>
+            <label for="name">
+                <span>
+                    Nombre
+                </span>
+                <input id="name" name="name" placeholder="Ingresa Nombre" type="text" required />
+            </label>
+
+            <label for="adress">
+                <span>
+                    Dirección
+                </span>
+                <input id="adress" name="adress" placeholder="Ingresa Dirección" type="text" required />
+            </label>
+
+            <label for="age">
+                <span>
+                    Edad
+                </span>
+                <input id="age" name="age" placeholder="Ingresa Edad" type="text" required />
+            </label>
+
+            <label id="login" onsubmit="process(event);return false" style="display: flex;">
+                <span style="text-transform: uppercase">Telefono:</span>
+                <input style="width: 187px;
+                    background: transparent;
+                    color: #eee;margin-right: 10px;" id="phone" type="tel" name="phone"
+                    onkeyup="process(event);return false" required />
+            </label>
+            <div class="alert alert-info" style="display: none"></div>
+            <div class="alert alert-error" style="display: none"></div>
+            <label for="email">
+                <span>
+                    Email
+                </span>
+                <input id="email" name="email" placeholder="Email" type="email" required />
+            </label>
+
+            <label for="password">
+                <span>
+                    Contraseña
+                </span>
+                <input id="password" name="password" placeholder="Contraseña" type="password" required />
+            </label>
+            <label for="avatar">
+                <span>
+                    Avatar
+                </span>
+                <input id="avatar" name="file" type="file" style="width: 187px" accept="image/*"
+                    onchange="previewFile(event)" required />
+            </label>
+
+            <input type="submit" class="submit-form" onsubmit="process(event);return false" value="Enviar" />
+        </div>
+</div>
+</form>
+<div class="res">
+    <span> ¿Ya tienes cuenta? </span>
+    <a href="/login">Inicia sesión</a>
+</div>
+</div>
