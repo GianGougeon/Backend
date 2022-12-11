@@ -22,3 +22,5 @@
 -   <b> [Tercera entrega del Proyecto Final](./clase-36/desafio) </b>
 -   [Dividir en capas nuestro proyecto](./clase-38/desafio)
 -   [Mejorar la arquitectura de la API](./clase-40/desafio)
+-   [Testeamos nuestra API REST](./clase-42/desafio)
+-   [Reformar para usar GraphQL](./clase-44/desafio)

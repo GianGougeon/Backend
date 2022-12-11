@@ -1,0 +1,29 @@
+mutation {
+  createPersona(datos: { nombre: "marian", edad: 35 }) {
+    id
+  }
+}
+
+query {
+  getPersonas {
+    id
+    nombre
+    edad
+  }
+}
+
+mutation {
+  updatePersona(id: 1, datos: { nombre: "marian", edad: 34 }) {
+    id
+    nombre
+    edad
+  }
+}
+
+mutation {
+  deletePersona(id: 1) {
+    id
+    nombre
+    edad
+  }
+}

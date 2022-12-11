@@ -1,0 +1,53 @@
+query {
+    getProducts {
+        _id
+        name
+        description
+    }
+}
+
+query {
+    getProductById(_id: "2") {
+        name
+        description
+    }
+}
+
+mutation {
+    createProduct(
+        datos: {
+            name: "Test 4"
+            description: "Testing Graphql"
+            code: "TST"
+            thumbnail: "test"
+            price: 100
+            stock: 10
+        }
+    ) {
+        _id
+        name
+        description
+    }
+}
+
+mutation {
+    updateProducts(
+        id: "4"
+        datos: {
+            name: "Test 2"
+            description: "Testing Graphql"
+            code: "TST"
+            thumbnail: "test"
+            price: 100
+            stock: 10
+        }
+    ) {
+        data
+    }
+}
+
+mutation {
+    deleteProducts(_id: "4") {
+        data
+    }
+}
