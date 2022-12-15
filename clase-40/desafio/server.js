@@ -22,8 +22,8 @@ app.use(
     session({
         store: new MongoStore({ mongoUrl: MONGOURL }),
         secret: "coderhouse",
-        resave: true,
-        saveUninitialized: true,
+        resave: false,
+        saveUninitialized: false,
         rolling: true,
         cookie: { maxAge: 3600000 }, // 1 hora
     })

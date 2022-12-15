@@ -1,0 +1,22 @@
+components:
+  schemas:
+    Noticia:
+      type: object
+      required:
+        - titulo
+        - cuerpo
+        - autor
+      properties:
+        titulo:
+          type: string
+          description: Titulo de la noticia
+        cuerpo:
+          type: string
+          description: Cuerpo de la noticia
+        autor:
+          type: string
+          description: Autor de la noticia
+      example:
+        titulo: Titulo de la noticia
+        cuerpo: Cuerpo de la noticia
+        autor: Autor de la noticia

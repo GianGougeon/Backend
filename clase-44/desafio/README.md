@@ -50,6 +50,11 @@
 
 Queries:
 
+```
+Dirigirse a: http://localhost:8080/api/graphql
+
+```
+
 -   Get products / Todos los productos
 
 ```

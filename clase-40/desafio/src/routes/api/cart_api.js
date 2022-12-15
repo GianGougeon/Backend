@@ -19,12 +19,12 @@ const Cart = require("../../controller/cart.controller");
 
 /*============================[Estructura carrito]============================*/
 
-// ruta para retornar todos los carritos
+// ruta para retornar todos los carritos, busca si existe el usuario y si existe devuelve el carrito
 carts.get("/", async (req, res) => {
     try {
-        const data = await Cart.getCarts();
-        Logger.info("LLamada a todos los carritos");
-        res.status(201).json(data);
+        const cart = await Cart.getCarts();
+        res.status(200).send(cart);
+        logger.info(`LLamada a todos los carritos`);
     } catch (err) {
         logger.warn(err);
         res.status(500).json(err);

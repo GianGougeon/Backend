@@ -24,8 +24,6 @@ class CartDAO {
                 error
             );
             throw objErr;
-        } finally {
-            await this.mongo.disconnect();
         }
     }
     //funcion que devuelve todos los carritos
@@ -41,8 +39,6 @@ class CartDAO {
                 error
             );
             throw objErr;
-        } finally {
-            await this.mongo.disconnect();
         }
     }
     //funcion para agregar un producto a un carrito segun el idUser y el id del producto
@@ -58,8 +54,6 @@ class CartDAO {
             const cuserr = new CustomError(500, "Error addProduct()", error);
             logger.error(cuserr);
             throw cuserr;
-        } finally {
-            await this.mongo.disconnect();
         }
     }
     //funcion que muestra el contenido de un carrito segun el idUser
@@ -72,8 +66,6 @@ class CartDAO {
             const cuserr = new CustomError(500, "Error al listarOne()", error);
             logger.error(cuserr);
             throw cuserr;
-        } finally {
-            await this.mongo.disconnect();
         }
     }
 
@@ -81,14 +73,14 @@ class CartDAO {
     async deleteItem(id) {
         try {
             await this.mongo.connect();
-            const doc = await this.cartColecction.findOneAndDelete({ idUser: id });
+            const doc = await this.cartColecction.findOneAndDelete({
+                idUser: id,
+            });
             return doc;
         } catch (error) {
             const cuserr = new CustomError(500, "Error al listarOne()", error);
             logger.error(cuserr);
             throw cuserr;
-        } finally {
-            await this.mongo.disconnect();
         }
     }
 
@@ -105,8 +97,6 @@ class CartDAO {
             const cuserr = new CustomError(500, "Error al listarOne()", error);
             logger.error(cuserr);
             throw cuserr;
-        } finally {
-            await this.mongo.disconnect();
         }
     }
 }

@@ -159,3 +159,181 @@
 {"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-27/21:12:56"}
 {"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-27/21:12:56"}
 {"level":"info","message":"Carrito mostrado con id: 6383fb4be2b136c49e85841d","timestamp":"2022-11-27/21:12:56"}
+{"level":"info","message":"Usuario logueado","timestamp":"2022-11-29/19:38:07"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:38:22"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:38:22"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/19:38:22"}
+{"level":"warn","message":"Ruta inexistente /api/carrito/6368fc767b874434b6c48a62/productos -- Metodo:POST -- IP: ::1","timestamp":"2022-11-29/19:39:42"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:39:48"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:39:48"}
+{"level":"info","message":"Carrito mostrado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/19:39:48"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:05"}
+{"level":"info","message":"Carrito mostrado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/19:42:06"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:08"}
+{"level":"info","message":"Carrito mostrado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/19:42:08"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:09"}
+{"level":"info","message":"Carrito mostrado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/19:42:09"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:17"}
+{"level":"info","message":"Carrito mostrado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/19:42:17"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:42:25"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:25"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:42:25"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-11-29/19:42:30"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:42:30"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:31"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:42:31"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:42:32"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:33"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:42:33"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-11-29/19:42:37"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:42:37"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:38"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:42:38"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:42:39"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:40"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:42:40"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-11-29/19:42:51"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:42:51"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:42:52"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:42:52"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:43:12"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:43:13"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:43:13"}
+{"level":"info","message":"Usuario logueado","timestamp":"2022-11-29/19:43:47"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:43:48"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:43:48"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:43:48"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:49:46"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:49:46"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:49:46"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:49:46"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:49:46"}
+{"level":"info","message":"Carrito mostrado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/19:49:46"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:50:11"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:50:11"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:50:11"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/19:59:27"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/19:59:27"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/19:59:27"}
+{"level":"warn","timestamp":"2022-11-29/20:00:13"}
+{"level":"warn","timestamp":"2022-11-29/20:00:16"}
+{"level":"warn","timestamp":"2022-11-29/20:00:25"}
+{"level":"warn","timestamp":"2022-11-29/20:00:25"}
+{"level":"warn","timestamp":"2022-11-29/20:00:26"}
+{"level":"warn","timestamp":"2022-11-29/20:00:26"}
+{"level":"warn","timestamp":"2022-11-29/20:00:27"}
+{"level":"warn","timestamp":"2022-11-29/20:00:28"}
+{"level":"warn","timestamp":"2022-11-29/20:00:48"}
+{"level":"warn","timestamp":"2022-11-29/20:00:57"}
+{"level":"warn","timestamp":"2022-11-29/20:00:58"}
+{"level":"warn","timestamp":"2022-11-29/20:00:59"}
+{"level":"warn","timestamp":"2022-11-29/20:00:59"}
+{"level":"warn","timestamp":"2022-11-29/20:01:00"}
+{"level":"warn","timestamp":"2022-11-29/20:01:01"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:01:34"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/20:01:34"}
+{"level":"warn","timestamp":"2022-11-29/20:01:35"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:01:53"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/20:01:53"}
+{"level":"warn","timestamp":"2022-11-29/20:01:53"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:03:12"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/20:03:12"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:03:12"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:03:43"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:03:43"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/20:03:43"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:04:13"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:04:13"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/20:04:13"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:03"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:03"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:04"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:04"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:05"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:05"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:06"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:06"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:07"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:07"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:07"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:07"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:08"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:08"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:09"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:09"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:09"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:09"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:10"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:10"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:11"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:11"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:12"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:12"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:12"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:12"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:13"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:13"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:13"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:13"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:05:53"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:05:53"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:06:03"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:06:03"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:06:27"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:06:27"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:06:32"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:06:32"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:06:33"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:06:33"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:07:59"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:07:59"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:08:04"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:08:04"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:08:14"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:08:14"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:08:49"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:08:49"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:08:51"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:08:51"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:08:51"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:08:51"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:08:52"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:08:52"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:08:54"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:08:54"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:09:06"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:09:06"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:09:36"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:09:36"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:09:52"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:09:52"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:10:00"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:10:00"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:10:01"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:10:01"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:10:01"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:10:01"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:10:09"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:10:09"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:10:13"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:10:13"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:10:15"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:10:15"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:11:19"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:11:19"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:11:24"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:11:24"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:11:26"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:11:26"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:11:29"}
+{"level":"info","message":"Carrito creado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:11:29"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:11:31"}
+{"level":"info","message":"LLamada a todos los carritos","timestamp":"2022-11-29/20:11:31"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/20:54:55"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:54:55"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/20:54:55"}
+{"level":"info","message":"LLamada a todos los productos","timestamp":"2022-11-29/20:55:20"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:55:20"}
+{"level":"info","message":"Base de datos conectada","timestamp":"2022-11-29/20:55:20"}
+{"level":"info","message":"Base de datos desconectada","timestamp":"2022-11-29/20:55:20"}
+{"level":"info","message":"Carrito mostrado con id: 6368fc767b874434b6c48a62","timestamp":"2022-11-29/20:55:20"}
