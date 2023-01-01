@@ -1,0 +1,310 @@
+{
+	"info": {
+		"_postman_id": "49bf0109-d126-44e3-9327-23fed695bc34",
+		"name": "Ecommerce_GianGougeon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24912917"
+	},
+	"item": [
+		{
+			"name": "productos",
+			"item": [
+				{
+					"name": "getAll",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/productos",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"productos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getProductById",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{api}}/productos/63667892841d9e845facde2a",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"productos",
+								"63667892841d9e845facde2a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createProduct",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nombre\": \"prueba\",\r\n    \"precio\": 2000,\r\n    \"url\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/productos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"productos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateProductById",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImZlbGl4Y2FzdHJvQHBydWViYXMuY29tIiwibmFtZSI6IkZlbGl4IENhc3RybyIsInBob25lIjoiIiwidHlwZSI6ImFkbWluIiwiaWF0IjoxNjY0NjU3MjkyLCJleHAiOjE2NjUyNjIwOTJ9.TkSNW3Sd1JfK9aUudPm8JFyW3CJneEDQwJ74Ko99JMs",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"nombre\": \"prueba editada\",\n    \"precio\": 2000,\n    \"url\": null    \n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{api}}/productos/63b0f08127aa8d92c4d647fb2",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"productos",
+								"63b0f08127aa8d92c4d647fb2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteProductById",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjEiLCJlbWFpbCI6ImZlbGl4Y2FzdHJvQHBydWViYXMuY29tIiwibmFtZSI6IkZlbGl4IENhc3RybyIsInBob25lIjoiIiwidHlwZSI6ImFkbWluIiwiaWF0IjoxNjY0NjU3MjkyLCJleHAiOjE2NjUyNjIwOTJ9.TkSNW3Sd1JfK9aUudPm8JFyW3CJneEDQwJ74Ko99JMs",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{api}}/productos/63b0f08127aa8d92c4d647b2",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"productos",
+								"63b0f08127aa8d92c4d647b2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"test@gmail.com\",\n    \"password\": \"123\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "cart",
+			"item": [
+				{
+					"name": "getCarts",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/carrito",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"carrito"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "createCart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/carrito",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"carrito"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteCart",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/carrito/6368fc767b874434b6c48a62",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"carrito",
+								"6368fc767b874434b6c48a62"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getProductsOnCart",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/carrito/63b08b6f694b61028e2be3bb/productos",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"carrito",
+								"63b08b6f694b61028e2be3bb",
+								"productos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateProductsOnCart",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/carrito/63b08b6f694b61028e2be3bb/productos/63667892841d9e845facde2a",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"carrito",
+								"63b08b6f694b61028e2be3bb",
+								"productos",
+								"63667892841d9e845facde2a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteProductsOnCart",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/carrito/63b08b6f694b61028e2be3bb/productos/63667892841d9e845facde2a",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"carrito",
+								"63b08b6f694b61028e2be3bb",
+								"productos",
+								"63667892841d9e845facde2a"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "generateOrder",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{api}}/order/63b08b6f694b61028e2be3bb",
+							"host": [
+								"{{api}}"
+							],
+							"path": [
+								"order",
+								"63b08b6f694b61028e2be3bb"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

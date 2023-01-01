@@ -1,0 +1,19 @@
+/*============================[login]============================*/
+
+.login {
+    > img {
+        width: 84px;
+        height: 84px;
+    }
+}
+.res {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+    > a {
+        margin-left: 5px;
+        color: #bde383;
+        font-weight: bold;
+    }
+}

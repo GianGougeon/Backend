@@ -1,0 +1,143 @@
+{"level":"warn","timestamp":"2022-11-27/16:37:18"}
+{"level":"warn","timestamp":"2022-11-27/16:39:08"}
+{"level":"warn","timestamp":"2022-11-27/19:34:19"}
+{"level":"warn","timestamp":"2022-11-27/19:34:22"}
+{"level":"warn","timestamp":"2022-11-27/19:34:22"}
+{"level":"warn","timestamp":"2022-11-27/19:34:34"}
+{"level":"warn","timestamp":"2022-11-27/19:34:34"}
+{"level":"warn","timestamp":"2022-11-27/19:34:36"}
+{"level":"warn","timestamp":"2022-11-27/19:34:38"}
+{"level":"warn","timestamp":"2022-11-27/19:34:38"}
+{"level":"warn","timestamp":"2022-11-27/19:34:40"}
+{"level":"warn","timestamp":"2022-11-27/19:34:42"}
+{"level":"warn","timestamp":"2022-11-27/19:35:46"}
+{"level":"warn","timestamp":"2022-11-27/19:38:00"}
+{"level":"warn","timestamp":"2022-11-27/19:38:03"}
+{"level":"warn","timestamp":"2022-11-27/19:39:53"}
+{"level":"warn","timestamp":"2022-11-27/20:02:25"}
+{"level":"warn","timestamp":"2022-11-27/20:03:14"}
+{"level":"warn","timestamp":"2022-11-27/20:09:55"}
+{"level":"warn","timestamp":"2022-11-27/20:11:47"}
+{"level":"warn","timestamp":"2022-11-27/20:12:30"}
+{"level":"warn","timestamp":"2022-11-27/20:19:58"}
+{"level":"warn","timestamp":"2022-11-27/20:29:25"}
+{"level":"warn","timestamp":"2022-11-27/20:30:10"}
+{"level":"warn","timestamp":"2022-11-27/20:32:24"}
+{"level":"warn","timestamp":"2022-11-27/20:36:17"}
+{"level":"warn","timestamp":"2022-11-27/20:36:53"}
+{"level":"warn","timestamp":"2022-11-27/20:45:02"}
+{"level":"warn","message":"Ruta inexistente /api/carrito/6368fc767b874434b6c48a62/productos -- Metodo:POST -- IP: ::1","timestamp":"2022-11-29/19:39:42"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-11-29/19:42:30"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-11-29/19:42:37"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-11-29/19:42:51"}
+{"level":"warn","timestamp":"2022-11-29/20:00:13"}
+{"level":"warn","timestamp":"2022-11-29/20:00:16"}
+{"level":"warn","timestamp":"2022-11-29/20:00:25"}
+{"level":"warn","timestamp":"2022-11-29/20:00:25"}
+{"level":"warn","timestamp":"2022-11-29/20:00:26"}
+{"level":"warn","timestamp":"2022-11-29/20:00:26"}
+{"level":"warn","timestamp":"2022-11-29/20:00:27"}
+{"level":"warn","timestamp":"2022-11-29/20:00:28"}
+{"level":"warn","timestamp":"2022-11-29/20:00:48"}
+{"level":"warn","timestamp":"2022-11-29/20:00:57"}
+{"level":"warn","timestamp":"2022-11-29/20:00:58"}
+{"level":"warn","timestamp":"2022-11-29/20:00:59"}
+{"level":"warn","timestamp":"2022-11-29/20:00:59"}
+{"level":"warn","timestamp":"2022-11-29/20:01:00"}
+{"level":"warn","timestamp":"2022-11-29/20:01:01"}
+{"level":"warn","timestamp":"2022-11-29/20:01:35"}
+{"level":"warn","timestamp":"2022-11-29/20:01:53"}
+{"level":"error","message":"Error al crear el usuario","timestamp":"2022-12-31/10:59:55"}
+{"level":"warn","message":"Error en el registro de usuario /register","timestamp":"2022-12-31/10:59:55"}
+{"level":"error","message":"Error al crear el usuario","timestamp":"2022-12-31/11:01:26"}
+{"level":"warn","message":"Error en el registro de usuario /register","timestamp":"2022-12-31/11:01:26"}
+{"level":"error","message":"Error al obtener los usuarios","timestamp":"2022-12-31/11:01:43"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-12-31/11:01:47"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-12-31/11:01:54"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-12-31/11:02:01"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-12-31/11:03:49"}
+{"level":"warn","message":"Ruta inexistente /api/products -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/11:05:28"}
+{"level":"warn","message":"Ruta inexistente /images/undefined -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/11:23:06"}
+{"level":"warn","message":"Ruta inexistente /images/undefined -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/11:24:53"}
+{"level":"warn","message":"Ruta inexistente /images/undefined -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/11:54:32"}
+{"level":"warn","message":"Ruta inexistente /images/undefined -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/11:55:00"}
+{"level":"warn","message":"Ruta inexistente /1672498458045-Screenshot_1.png -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/11:56:26"}
+{"level":"warn","message":"Ruta inexistente /images/undefined -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/11:57:21"}
+{"level":"warn","message":"Ruta inexistente /images/undefined -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/12:45:31"}
+{"level":"warn","message":"Ruta inexistente /api/products -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/17:18:51"}
+{"level":"warn","message":"Ruta inexistente /api/products -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:31:25"}
+{"level":"warn","message":"Ruta inexistente /api/productos -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:46:40"}
+{"level":"warn","message":"Ruta inexistente /api/productos -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:47:39"}
+{"level":"warn","message":"Ruta inexistente /api/productos -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:51:23"}
+{"level":"warn","message":"Ruta inexistente /api/login -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:54:57"}
+{"level":"warn","message":"Ruta inexistente /api/login -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:55:00"}
+{"level":"warn","message":"Ruta inexistente /loginError -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:55:09"}
+{"level":"warn","message":"Ruta inexistente /loginError -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:55:12"}
+{"level":"warn","message":"Ruta inexistente /loginError -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:55:20"}
+{"level":"warn","message":"Ruta inexistente /loginError -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:55:21"}
+{"level":"warn","message":"Ruta inexistente /loginError -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:55:21"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:56:08"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:56:10"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:56:16"}
+{"level":"warn","message":"Ruta inexistente /api/login -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/18:58:11"}
+{"level":"warn","message":"Ruta inexistente /loginError -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/18:59:41"}
+{"level":"warn","message":"Ruta inexistente /api/productos -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/19:00:37"}
+{"level":"warn","message":"Ruta inexistente /api/productos -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/19:00:51"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"warn","timestamp":"2022-12-31/19:03:43"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"warn","timestamp":"2022-12-31/19:04:08"}
+{"level":"warn","timestamp":"2022-12-31/19:04:55"}
+{"level":"warn","message":"Error en el login de usuario /loginError","timestamp":"2022-12-31/19:06:18"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:06:31"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:18:57"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:18:58"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:19:02"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/19:27:02"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/19:27:32"}
+{"level":"warn","message":"Ruta inexistente /api/products/63667892841d9e845facde2a -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:29:11"}
+{"level":"warn","message":"Ruta inexistente /api/products/63667892841d9e845facde2a -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:29:13"}
+{"level":"warn","message":"Ruta inexistente /api/products/63667892841d9e845facde2a -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:29:18"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:45:04"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:45:48"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/19:45:56"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"warn","timestamp":"2022-12-31/19:47:26"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"warn","timestamp":"2022-12-31/19:47:53"}
+{"level":"warn","message":"Producto no encontrado","timestamp":"2022-12-31/20:04:54"}
+{"level":"warn","message":"Producto no encontrado","timestamp":"2022-12-31/20:06:56"}
+{"level":"warn","message":"Producto no encontrado","timestamp":"2022-12-31/20:06:58"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0b1bfb4dfd702cb2dbcc2","timestamp":"2022-12-31/20:08:04"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"warn","timestamp":"2022-12-31/20:08:13"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0b19502e9dbf7e827c701","timestamp":"2022-12-31/20:09:42"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"warn","message":"Error al eliminar el producto Invalid status code: Producto eliminado con id: 63b0c1424d1286062546aa50","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: Producto eliminado con id: 63b0c1424d1286062546aa50\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.writeHead (node:_http_server:343:11)\n    at ServerResponse.writeHead (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:334:8)\n    at writetop (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express-session\\index.js:276:15)\n    at ServerResponse.end (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express-session\\index.js:356:16)\n    at ServerResponse.send (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express\\lib\\response.js:221:10)\n    at ServerResponse.json (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express\\lib\\response.js:267:15)\n    at ServerResponse.send (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express\\lib\\response.js:158:21)\n    at C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\src\\routes\\api\\productos_api.js:64:29","timestamp":"2022-12-31/20:10:05"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0c1424d1286062546aa50","timestamp":"2022-12-31/20:10:37"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"warn","message":"Error al eliminar el producto Invalid status code: Promise { <pending> }","stack":"RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: Promise { <pending> }\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.writeHead (node:_http_server:343:11)\n    at ServerResponse.writeHead (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:334:8)\n    at writetop (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express-session\\index.js:276:15)\n    at ServerResponse.end (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express-session\\index.js:356:16)\n    at ServerResponse.send (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express\\lib\\response.js:221:10)\n    at C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\src\\routes\\api\\productos_api.js:64:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2022-12-31/20:11:28"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0c1976d82a63b7bf40532","timestamp":"2022-12-31/20:12:27"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"warn","message":"Error al eliminar el producto Cannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n    at ServerResponse.header (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express\\lib\\response.js:776:10)\n    at ServerResponse.send (C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\node_modules\\express\\lib\\response.js:170:12)\n    at C:\\Users\\Gian\\Desktop\\Backend\\clase-48\\desafio\\src\\routes\\api\\productos_api.js:65:29\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2022-12-31/20:12:50"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/21:38:04"}
+{"level":"warn","message":"Ruta inexistente /logout -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/21:38:58"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/21:39:12"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/21:39:27"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/21:39:58"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/21:40:01"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/21:40:23"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0d6e0e7ea58d646067f2d","timestamp":"2022-12-31/21:42:23"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0d6e","timestamp":"2022-12-31/21:46:23"}
+{"level":"warn","message":"Producto no encontrado con id: 63b","timestamp":"2022-12-31/21:46:28"}
+{"level":"warn","message":"Producto no encontrado con id: 63b","timestamp":"2022-12-31/21:46:46"}
+{"level":"warn","message":"Producto no encontrado con id: 63b12312312123","timestamp":"2022-12-31/21:46:50"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2022-12-31/22:42:21"}
+{"level":"warn","message":"Error al agregar el producto, datos incompletos","timestamp":"2022-12-31/22:53:42"}
+{"level":"warn","message":"Error al agregar el producto, datos incompletos","timestamp":"2022-12-31/22:54:02"}
+{"level":"warn","message":"Error al agregar el producto, datos incompletos","timestamp":"2022-12-31/22:54:06"}
+{"level":"warn","message":"Error al agregar el producto, datos incompletos","timestamp":"2022-12-31/22:54:53"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/23:00:22"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/23:00:27"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/23:00:34"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0e81b","timestamp":"2022-12-31/23:34:51"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0f08127aa8d92c4d647fb2","timestamp":"2022-12-31/23:35:17"}
+{"level":"warn","message":"Producto no encontrado con id: 63b12312312123","timestamp":"2022-12-31/23:35:51"}
+{"level":"warn","message":"Producto no encontrado con id: 63b0f08127aa8d92c4d647fb2","timestamp":"2022-12-31/23:35:55"}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/23:50:17"}
+{"level":"warn","modifiedPaths":["productos"],"timestamp":"2022-12-31/23:50:22","version":3}
+{"level":"warn","message":"Ruta inexistente /null -- Metodo:GET -- IP: ::1","timestamp":"2022-12-31/23:56:56"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2023-01-01/00:31:19"}
+{"level":"warn","message":"Ruta inexistente /homepage -- Metodo:POST -- IP: ::1","timestamp":"2023-01-01/00:31:36"}
